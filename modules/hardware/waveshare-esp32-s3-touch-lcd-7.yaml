@@ -36,7 +36,7 @@ esp32:
       CONFIG_ESP32S3_DATA_CACHE_LINE_64B: y
       CONFIG_COMPILER_OPTIMIZATION_PERF: y
     advanced:
-      enable_idf_experimental_features: True
+      enable_idf_experimental_features: True #<-- has to be added for Octal @ 120MHz
       
 psram:
   mode: octal
